@@ -1,5 +1,11 @@
-PyScript with Vite.js demo
-==================
+PyScript development with Vite.js
+============================
+
+
+# Requirements
+
+* Python 3.10
+* Node.js 16.15.0
 
 # Features
 
