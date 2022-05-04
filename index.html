@@ -1,0 +1,41 @@
+<!doctype html>
+<!--suppress JSUnresolvedLibraryURL -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PyScript Demo</title>
+    <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css"/>
+    <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+    <py-env>
+        - numpy
+        - matplotlib
+        - paths:
+              - /data.py
+    </py-env>
+</head>
+<body>
+<h1>Let's plot random numbers plot: </h1>
+<div id="plot"></div>
+
+<h1>Let's plot random numbers plot2:</h1>
+<div id="plot2"></div>
+
+<py-script output="plot"># draw plot
+import matplotlib.pyplot as plt
+import numpy as np
+
+x = np.random.randn(10)
+y = np.random.randn(10)
+
+fig, ax = plt.subplots()
+ax.scatter(x, y)
+fig
+</py-script>
+
+<py-script output="plot2" src="plot2.py"></py-script>
+
+</body>
+</html>
