@@ -70,4 +70,5 @@ console.log(jQuery("#plot"))
 # References
 
 * PyScript: https://github.com/pyscript/pyscript
+* Pyodide: https://pyodide.org/en/stable/index.html
 * Vite.js: https://vitejs.dev/
