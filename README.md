@@ -1,7 +1,6 @@
 PyScript development with Vite.js
 ============================
 
-
 # Requirements
 
 * Python 3.10
@@ -37,6 +36,28 @@ js.py is a stub fake module for js module from PyScript, and it is used for code
 from js import console
 
 console.log('Hello, world!')
+```
+
+You can put other global variables in js.py, for example jQuery stub:
+
+```python
+from typing import Any, Optional
+
+
+def jQuery(name: Any, fallback: Optional[callable] = None):
+    pass
+```
+
+Then you can use `jQuery` function from PyScript code: 
+
+```html
+<div id="plot"></div>
+<py-script>
+from js import jQuery, console
+
+console.log(jQuery("#plot"))
+
+</py-script>
 ```
 
 # Tips
