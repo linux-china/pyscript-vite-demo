@@ -28,9 +28,9 @@ PyScript development with Vite.js
 * Install dependencies: `npm install`
 * Run dev server: `npm run dev`
 
-# why js.py?
+# why js/pyodide modules?
 
-js.py is a stub fake module for js module from PyScript, and it is used for code completion.
+js/pyodide modules are stub fake modules, and it is used for code completion.
 
 ```python
 from js import console
@@ -38,7 +38,7 @@ from js import console
 console.log('Hello, world!')
 ```
 
-You can put other global variables in js.py, for example jQuery stub:
+You can put other global variables in these modules, for example jQuery stub:
 
 ```python
 from typing import Any, Optional
