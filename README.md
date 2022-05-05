@@ -60,6 +60,9 @@ console.log(jQuery("#plot"))
 </py-script>
 ```
 
+* js module: please refer https://developer.mozilla.org/en-US/docs/Web/API/Window 
+* pyodide module: please refer: https://github.com/pyodide/pyodide/tree/main/src/py/pyodide
+
 # Tips
 
 * Please put `py-script` tag under body tag and before `</body>`
