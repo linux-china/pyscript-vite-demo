@@ -18,10 +18,10 @@ PyScript development with Vite.js
   following:
     - py-env injection
 
-  ![py-env injection](./docs/images/py-env-injection.png)
+  ![py-env injection](docs/images/py-env-injection.png)
     - py-script injection: please add comment after `py-script` tag to prevent code format problem.
 
-  ![py-script injection](./docs/images/py-script-injection.png)
+  ![py-script injection](docs/images/py-script-injection.png)
 
 # Development
 
