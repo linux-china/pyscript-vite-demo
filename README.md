@@ -28,9 +28,9 @@ PyScript development with Vite.js
 * Install dependencies: `npm install`
 * Run dev server: `npm run dev`
 
-# why js/pyodide modules?
+# why pyscript_stubs with js/pyodide modules?
 
-js/pyodide modules are stub fake modules, and it is used for code completion.
+js/pyodide modules are stub modules, and it is used for code completion.
 
 ```python
 from js import console
@@ -60,6 +60,7 @@ console.log(jQuery("#plot"))
 </py-script>
 ```
 
+* Please mark `pyscript_stubs` as `Sources Root` in PyCharm
 * js module: please refer https://developer.mozilla.org/en-US/docs/Web/API/Window 
 * pyodide module: please refer: https://github.com/pyodide/pyodide/tree/main/src/py/pyodide
 
